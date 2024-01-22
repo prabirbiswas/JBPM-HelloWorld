@@ -1,0 +1,10 @@
+<!-- <kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule"> <kbase name="kbase" 
+	packages="com.sample"/> </kmodule> -->
+<!-- <kmodule xmlns="http://www.drools.org/xsd/kmodule"/> -->
+
+<kmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://jboss.org/kie/6.0.0/kmodule">
+	<kbase name="kbase" packages="com.sample" default="true">
+		<ksession name="helloworld" default="true" />
+	</kbase>
+</kmodule>
